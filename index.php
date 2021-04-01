@@ -140,7 +140,7 @@
                                 <div class="col-12 col-lg-5">
                                     <h5>Social Media</h5>
                                     <ul class="list-unstyled sitemap">
-                                        <li><a href="instagram.com/rama_kholiq">Instagram</a></li>
+                                        <li><a href="https://www.instagram.com/rama_kholiq/">Instagram</a></li>
                                     </ul>
                                 </div>
                             </div>
