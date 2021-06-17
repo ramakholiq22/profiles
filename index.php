@@ -4,31 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ramadlon Nur Kholiq</title>
-    <link rel="stylesheet" href="frontend/libraries/css/bootstrap.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="frontend/styles/main.css">
-    <link rel="stylesheet" href="frontend/scripts/main.js">
 </head>
 <body>
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
-        <a class="navbar-brand" href="index.html">Rama</a>
+        <a class="navbar-brand" href="index.html">Ramadlon Nur Kholiq</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNav">
             <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="myNav">
             <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#header">About</a></li>
                 <li class="nav-item"><a class="nav-link" href="#exp">Expertise</a></li>
+                <li class="nav-item"><a class="nav-link" href="#footer">Contact</a></li>
             </ul>
         </div>
-        
     </nav>
 
     <header id="header" class="bg-primary py-5 mb-5 text-white text-center">
         <div class="container" style="margin-top: 80px;">
             <div class="row">
-                <div class="col text-center">
+                <div class="col-lg-6 col-12 text-center">
                     <h1 style="font-size: 50px;">
                         Hello, I'am
                     </h1>
@@ -40,35 +42,46 @@
                     <a class="btn btn-success" href="#project">Let's have a coffee</a>
                 </div>
 
-                <div class="col">
-                    <img src="frontend/images/foto-rama.png" alt="foto-rama">
+                <div class="col-lg-6 col-12">
+                    <img src="frontend/images/foto-rama.png" alt="foto-rama" class="float-left img-fluid">
                 </div>
             </div>
         </div>
     </header>
 
-    <section id="exp" style="margin-top: 50px;">
-        <div class="container">
+    <section id="exp">
+        <div class="container mt-5">
             <div class="row">
                 <div class="col text-center">
                     <h3>Expertise</h3>
                     <div class="row">
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-12">
                             <i class="fa fa-pencil" style="font-size: 100px;"></i>
                             <h4>Designer</h4>
-                            <p>I create design simple and beautiful</p>
+                            <p>I create design simple and beautiful Apps</p>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-12">
                             <i class="fa fa-code" style="font-size: 100px;"></i>
                             <h4>Developer</h4>
                             <p>I like code and enjoy bringing ideas</p>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-12">
                             <i class="fa fa-gears" style="font-size: 100px;"></i>
                             <h4>Robotic</h4>
                             <p>I build hardware to make work people simple</p>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <h3 class="text-center">Gallery</h3>
+            <div class="row">
+                <div class="col">
+                    
                 </div>
             </div>
         </div>
@@ -102,7 +115,7 @@
                                     <div class="col-12">
                                         <div class="form-group">
                                             <label for="message">Message</label>
-                                            <input type="text" name="message" class="form-control">
+                                            <textarea name="message" id="message" cols="30" rows="5" class="form-control"></textarea>
                                         </div>
                                     </div>
                                 </div>
@@ -132,15 +145,14 @@
                                 <div class="col-12 col-lg-7">
                                     <h5>Office</h5>
                                     <ul class="list-unstyled sitemap">
-                                        <li>123456789</li>
-                                        <li>ramadlonnurkholiq@gmail.com</li>
-                                        <li>Kabupaten Bogor, Indonesia</li>
+                                        <li><i class="fa fa-envelope"></i> ramadlonnurkholiq@gmail.com</li>
+                                        <li><i class="fa fa-map"></i> Jl. Sampora Rt 04 Rw 04 No. 49 <br> Kabupaten Bogor, Indonesia</li>
                                     </ul>
                                 </div>
                                 <div class="col-12 col-lg-5">
                                     <h5>Social Media</h5>
                                     <ul class="list-unstyled sitemap">
-                                        <li><a href="https://www.instagram.com/rama_kholiq/">Instagram</a></li>
+                                        <li><i class="fa fa-instagram"></i><a href="https://www.instagram.com/rama_kholiq"> Instagram</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -156,8 +168,24 @@
             </div>
         </div>
     </footer>
+
+<!-- JS untuk Animasi scroll ketika user klik tombol dengan tag <a> -->
+<script>
+    $(document).ready(function(){
+        $("a").on('click', function(event){
+            if (this.hash !== ""){
+                event.preventDefault();
+                var hash = this.hash;
+
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                }, 800, function(){
+                    window.location.hash = hash;
+                });
+            }
+        });
+    });
+</script>
     
-    <script src="js/bootstrap.js"></script>
-    <script src="js/jquery.js"></script>
 </body>
 </html>
