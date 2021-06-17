@@ -13,7 +13,7 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
-        <a class="navbar-brand" href="index.html">Ramadlon Nur Kholiq</a>
+        <a class="navbar-brand" href="index.php">Ramadlon Nur Kholiq</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNav">
             <span class="navbar-toggler-icon"></span>
         </button>
