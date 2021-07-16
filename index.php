@@ -162,7 +162,7 @@
                         <div class="col-12 col-lg-7">
                             <h5>Office</h5>
                             <ul class="list-unstyled sitemap">
-                                <li><a target="_blank" href="https://api.whatsapp.com/send?phone=+6281380322145&text=Hallo%20Saya%20ingin%20bekerjasama%20dengan%20Rama."><i class="fab fa-whatsapp"></i> 081380322134</a></li>
+                                <li><a target="_blank" href="#"><i class="fab fa-whatsapp"></i> 123456789</a></li>
                                 <li><i class="fa fa-envelope"></i> ramadlonnurkholiq@gmail.com</li>
                                 <li><i class="fa fa-map"></i> Jl. Sampora Rt 04 Rw 04 No. 49 <br> Kabupaten Bogor, Indonesia</li>
                             </ul>
