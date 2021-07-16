@@ -1,0 +1,81 @@
+nav{
+    background-color: #000080;
+}
+
+#header{
+    //background pada header
+    background-color: #000080;
+    //button CTA header
+    a.btn-success{
+        border: none;
+    }
+    a{
+        border-radius: 25px;
+        background-color: #9980FA;
+        color: #ffffff;
+    }
+    a:hover{
+        background-color: #5758BB;
+    }
+    //styling untuk tulisan pada header
+    h1{
+        font-size: 70px;
+    }
+    p{
+        font-size: 25px;
+        font-weight: lighter;
+    }
+}
+
+#exp{
+    //ukuran logo designer, dervloper dan robotic
+    i{
+        font-size: 90px;
+    }
+}
+
+#service{
+    //ukuran logo
+    i{
+        font-size: 90px;
+    }
+}
+
+#project{
+    //form pada let's coffee
+    .card{
+        border-radius: 25px;
+    }
+    input{
+        border-radius: 25px;
+    }
+    textarea{
+        border-radius: 25px;
+    }
+    button{
+        border-radius: 25px;
+    }
+
+    //button send email pada let's project
+    button.btn-success{
+        border: none;
+    }
+    button{
+        border-radius: 25px;
+        background-color: #9980FA;
+        color: #ffffff;
+    }
+    button:hover{
+        background-color: #5758BB;
+    }
+}
+
+#footer{
+    //background pada footer
+    background-color: #000080;
+
+    //sosial media
+    a{
+        color: #ffffff;
+    }
+}
