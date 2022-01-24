@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="frontend/styles/main.css">
     <link rel="stylesheet" href="frontend/libraries/retina/retina.js">
     <link rel="stylesheet" href="frontend/libraries/fontawesome/css/all.css">
+    
+    <!-- lib untuk slider brand (client) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+    <!-- end lib untuk slider brand (client) -->
 </head>
 <body>
     <nav class="navbar navbar-expand-sm fixed-top navbar-dark">
@@ -216,23 +221,9 @@
 <!-- JS untuk bootstrap-->
 <script src="frontend/libraries/jquery/jquery-3.6.0.min.js"></script>
 <script src="frontend/libraries/bootstrap/js/bootstrap.js"></script>
-
-<!-- JS untuk Animasi scroll ketika user klik tombol dengan tag <a> -->
-<script>
-    $(document).ready(function(){
-        $("a").on('click', function(event){
-            if (this.hash !== ""){
-                event.preventDefault();
-                var hash = this.hash;
-
-                $('html, body').animate({
-                    scrollTop: $(hash).offset().top
-                }, 800, function(){
-                    window.location.hash = hash;
-                });
-            }
-        });
-    });
-</script>
+<script src="frontend/scripts/main.js"></script>
+<!-- JS untuk slide brand logo (client)-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script>
+<!-- End JS untuk slide brand logo (client)-->
 </body>
 </html>
