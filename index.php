@@ -129,6 +129,12 @@
                                 <div class="owl-item">
                                     <div class="brands_item d-flex flex-column justify-content-center"><img src="frontend/images/tn.png" alt=""></div>
                                 </div>
+                                <div class="owl-item">
+                                    <div class="brands_item d-flex flex-column justify-content-center"><img src="frontend/images/get_x.png" alt=""></div>
+                                </div>
+                                <div class="owl-item">
+                                    <div class="brands_item d-flex flex-column justify-content-center"><img src="frontend/images/archery.png" alt=""></div>
+                                </div>
                                 
                             </div> <!-- Brands Slider Navigation -->
                             <div class="brands_nav brands_prev"><i class="fas fa-chevron-left"></i></div>
