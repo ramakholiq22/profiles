@@ -135,6 +135,9 @@
                                 <div class="owl-item">
                                     <div class="brands_item d-flex flex-column justify-content-center"><img src="frontend/images/archery.png" alt=""></div>
                                 </div>
+                                <div class="owl-item">
+                                    <div class="brands_item d-flex flex-column justify-content-center"><img src="frontend/images/hmi.png" alt=""></div>
+                                </div>
                                 
                             </div> <!-- Brands Slider Navigation -->
                             <div class="brands_nav brands_prev"><i class="fas fa-chevron-left"></i></div>
